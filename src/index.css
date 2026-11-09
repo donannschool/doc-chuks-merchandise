@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 4px;
+}
