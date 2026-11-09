@@ -37,7 +37,7 @@ export default function SiteLayout() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-2.5 shrink-0">
-              <img src="/logo-mark.png" alt="DOC Chuks Merchandise Ltd" className="w-10 h-10 object-contain" />
+              <img src="logo-mark.png" alt="DOC Chuks Merchandise Ltd" className="w-10 h-10 object-contain" />
               <div className="leading-tight">
                 <div className="font-display font-semibold text-white text-sm sm:text-base">
                   DOC Chuks Merchandise
@@ -112,7 +112,7 @@ export default function SiteLayout() {
       <footer className="bg-navy-dark text-white/80 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <img src="/logo-mark.png" alt={settings.business_name} className="w-14 h-14 object-contain mb-3" />
+            <img src="logo-mark.png" alt={settings.business_name} className="w-14 h-14 object-contain mb-3" />
             <div className="font-display font-semibold text-white mb-2">{settings.business_name}</div>
             <p className="text-sm italic text-amber-light mb-3">{settings.motto}</p>
             <p className="text-sm leading-relaxed">{settings.tagline}</p>
